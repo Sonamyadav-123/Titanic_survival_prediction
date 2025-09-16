@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the pre-trained model
-model = joblib.load('knn_Titanic.pkl')
+model = joblib.load('KNN_Titanic.pkl')
 scaler = joblib.load('scaler.pkl')
 expected_columns = joblib.load('columns.pkl')
 
